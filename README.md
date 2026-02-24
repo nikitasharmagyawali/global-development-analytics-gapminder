@@ -1,5 +1,3 @@
-# global-development-analytics-gapminder
-
 # Global Development Trends Over Time (Gapminder)
 
 ## Overview
