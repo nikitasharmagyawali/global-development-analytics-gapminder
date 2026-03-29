@@ -1,20 +1,32 @@
-# Global Development Trends Over Time (Gapminder)
+# 🌍 Global Development Data Cleaning & Analysis (Gapminder)
 
-## Overview
-Interactive Tableau visualization exploring global development trends using GDP per capita, life expectancy, and population data across countries from 1952 to 2007.  
-Python was used for initial data cleaning and preparation before visualization in Tableau.
+## 🔍 Overview
+This project focuses on cleaning and analyzing global development data (Gapminder dataset) to understand trends in life expectancy, GDP, and population across countries.
 
-## Visualization
-- Animated bubble chart showing GDP per capita vs. life expectancy
-- Bubble size represents population; color indicates continent
-- Year slider enables exploration of changes over time
-- Tooltips provide country-level details
+## 🧹 Data Cleaning
+- Handled missing values and inconsistent entries
+- Converted data types for accurate analysis
+- Standardized country and year formats
+- Removed duplicates and ensured data quality
 
-## Tools
-- Python (Pandas) for data cleaning and preparation  
-- Tableau for interactive visualization
+## 📈 Analysis
+- Explored trends in life expectancy and GDP across regions
+- Compared country-level development patterns
+- Identified relationships between economic growth and health outcomes
 
-## Key Observations
-- Countries with higher GDP per capita generally exhibit higher life expectancy.
-- Development paths vary significantly across regions and time periods.
-- The animation highlights periods of rapid change and stagnation across countries.
+## 📊 Key Findings
+- Higher GDP per capita is generally associated with higher life expectancy
+- Developing countries show faster improvements over time
+- Significant disparities exist between regions
+
+## 💡 Insights & Recommendations
+- Economic growth plays a critical role in improving health outcomes
+- Investments in developing regions can significantly improve life expectancy
+- Data-driven policy decisions can help reduce global inequality
+
+## 🛠 Tools Used
+- Python (Pandas, NumPy)
+- Jupyter Notebook
+
+## 📎 Files
+- `gapminder_data_cleaning.ipynb` – data cleaning and analysis workflow
